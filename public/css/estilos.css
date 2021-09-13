@@ -1,0 +1,147 @@
+.logoEscuela{
+    width: 65px; height: 80px;
+}
+* {
+    /* el tamaño por defecto es 14px */
+    font-size: 16px;
+    font-family: "serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.h1{
+    text-align:left;
+}
+/*tarjeta 3*/
+.card-header-c{
+    margin-top:-25px;
+    height: 120px;
+	box-shadow:1px 5px 15px #a2a2a2;
+    background: linear-gradient(-90deg, #11998e, #38ef7d);
+}
+.h-screen{
+    height: 100vh;
+}
+.wave
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: bottom;
+    background-image: url(../imagenes/wave-1.svg);
+}
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:50%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+/* brandico */
+[class*="brandico-"]:before {
+    font-family: 'brandico', sans-serif;
+  }
+  
+  ul.social-buttons {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  ul.social-buttons li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  ul.social-buttons li a {
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 60px;
+    color: white;
+  }
+  
+  ul.social-buttons li a.brandico-twitter-bird {
+    background-color: #4099FF;
+  }
+  
+  ul.social-buttons li a.brandico-facebook {
+    background-color: #3B5998;
+  }
+  
+  ul.social-buttons li a.brandico-instagram {
+    background-color: #3f729b;
+  }
+  ul.social-buttons li a.brandico-youtube {
+    background-color: #c93030;
+  }
+  
+  ul.social-buttons li a.brandico-vimeo {
+    background-color: #4EBBFF;
+  }
+  
+  ul.social-buttons li a.brandico-linkedin {
+    background-color: #0e76a8;
+  }
+  
+  /*Demo 1*/
+  ul#demo1 li a {
+    transition: transform 0.2s linear;
+  }
+  
+  ul#demo1 li:hover a {
+    transform: translateY(-10px);
+  }
+  
+  /*Demo 2*/
+  ul#demo2 li a {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  ul#demo2 li:hover a {
+    transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+  }
+  
+  /*Demo 3*/
+  ul#demo3 li a {
+    transition: transform 0.2s ease-in-out 0;
+  }
+  
+  ul#demo3 li:hover a {
+    transform: rotateZ(27deg) scale(1.1);
+  }

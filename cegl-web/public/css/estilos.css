@@ -1,0 +1,31 @@
+.logoEscuela{
+    width: 65px; height: 80px;
+}
+* {
+    /* el tamaño por defecto es 14px */
+    font-size: 16px;
+    font-family: "serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.h1{
+    text-align:left;
+}
+/*tarjeta 3*/
+.card-header-c{
+    margin-top:-25px;
+    height: 120px;
+	box-shadow:1px 5px 15px #a2a2a2;
+    background: linear-gradient(-90deg, #11998e, #38ef7d);
+}
+.h-screen{
+    height: 100vh;
+}
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: url("../imagenes/wave.svg");
+    background-position: center;
+
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
